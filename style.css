@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffd6e7;
+  margin: 0;
+  padding: 20px;
+  color: black;
+}
+
+#container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+#pageHeader {
+  text-align: center;
+  background: linear-gradient(to right, #ff69b4, #ff1493);
+  color: white;
+  padding: 25px;
+  border-radius: 15px 15px 0 0;
+}
+
+#pageHeader h1 {
+  margin: 0;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+#pageHeader h2 {
+  margin: 0;
+  font-size: 18px;
+  color: #ffe4ec;
+}
+
+#supportingText {
+  width: 68%;
+  float: left;
+  margin-top: 20px;
+}
+
+#linkList {
+  width: 28%;
+  float: right;
+  background-color: #ffe4ec;
+  padding: 15px;
+  border-radius: 15px;
+  margin-top: 40px;
+}
+
+#container::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#supportingText h3 {
+  color: #ff1493;
+  border-bottom: 2px solid #ff69b4;
+  padding-bottom: 5px;
+}
+
+.p1 {
+  color: black;
+  line-height: 1.6;
+}
+
+#linkList ul {
+  list-style: none;
+  padding: 0;
+}
+
+#linkList li {
+  margin: 8px 0;
+}
+
+#linkList a {
+  text-decoration: none;
+  color: #ff1493;
+  font-weight: bold;
+}
+
+a:hover {
+  color: black;
+}
+
+#footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 12px;
+  color: gray;
+}
